@@ -14,76 +14,76 @@
     </head>
     <body>
         <h2>Form</h2>
-        <form action="http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php" method="post">
+        <form action="http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php"method="post">
             <fieldset>
                 <legend>Your information</legend>
                 <div>
                     <label for="first_name_field">First Name:</label>
-                    <input type="put first name" name="first_name_field" id="first_name_field" required>
+                    <input type="input"name="first_name_field"id="first_name_field"required>
                 </div>
                 <div>
                     <label for="last_name_field">Last Name:</label>
-                    <input type="put last name" name="last_name_field" id="last_name_field" required>
+                    <input type="input"name="last_name_field" id="last_name_field"required>
                 </div>
                 <div>
                     <label for="phone_field">Phone number:</label>
-                    <input type="tel" id="phone_field" name="phone_field" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"required>
+                    <input type="tel"id="phone_field"name="phone_field"pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"required>
                 </div>
                 <div>
                     <label for="email_field">Email:</label>
-                    <input type="email" name="email_field" id="email_field"required>
+                    <input type="email"name="email_field"id="email_field"required>
                 </div>
                 <p>Gender:</p>
                 <div>
-                    <input type="radio" id="gender_field" name="gender_field" value="male">
+                    <input type="radio"id="gender_field"name="gender_field"value="male">
                     <label for="male">Male</label>
                 
-                    <input type="radio" id="gender_field" name="gender_field" value="female">
+                    <input type="radio"id="gender_field"name="gender_field"value="female">
                     <label for="female">Female</label>
     
-                    <input type="radio" id="gender_field" name="gender_field" value="other">
+                    <input type="radio"id="gender_field"name="gender_field"value="other">
                     <label for="other">Other</label>
                 </div>
                 <p></p>
                 <div>
                     <label for="age">Age</label>
-                    <input type="number" name="age_field" id="age_field" min="1" max="100">
+                    <input type="number"name="age_field"id="age_field"min="1"max="100">
                 </div>
             </fieldset>
             <fieldset>
                 <legend>Availability</legend>
                 <div>
-                    <input type="checkbox" id="available_field[]" name="available_field[]" value="Sunday">
+                    <input type="checkbox"id="available_field[]"name="available_field[]"value="Sunday">
                     <label for="sunday">Sunday</label>
                 </div>
                 <div>
-                    <input type="checkbox" id="available_field[]" name="available_field[]" value="Monday">
+                    <input type="checkbox"id="available_field[]"name="available_field[]"value="Monday">
                     <label for="monday">Monday</label>
                 </div>
                 <div>
-                    <input type="checkbox" id="available_field[]" name="available_field[]" value="Tuesday">
+                    <input type="checkbox"id="available_field[]"name="available_field[]"value="Tuesday">
                     <label for="tuesday">Tuesday</label>
                 </div>
                 <div>
-                    <input type="checkbox" id="available_field[]" name="available_field[]" value="Wednesday">
+                    <input type="checkbox"id="available_field[]"name="available_field[]"value="Wednesday">
                     <label for="wednesday">Wednesday</label>
                 </div>
                 <div>
-                    <input type="checkbox" id="available_field[]" name="available_field[]" value="Thursday">
+                    <input type="checkbox"id="available_field[]"name="available_field[]"value="Thursday">
                     <label for="thursday">Thursday</label>
                 </div>
                 <div>
-                    <input type="checkbox" id="available_field[]" name="available_field[]" value="Friday">
+                    <input type="checkbox"id="available_field[]"name="available_field[]"value="Friday">
                     <label for="friday">Friday</label>
                 </div>
                 <div>
-                    <input type="checkbox" id="available_field[]" name="available_field[]" value="Saturday">
+                    <input type="checkbox"id="available_field[]"name="available_field[]"value="Saturday">
                     <label for="saturday">Saturday</label>
                 </div>
                 <p></p>
                 <div>
                     <label for="meeting">Meeting time</label>
-                    <select name="meeting" id="meeting"required>
+                    <select name="meeting"id="meeting"required>
                         <option value="morning">8a.m-11a.m</option>
                         <option value="afternoon">12p.m-3p.m</option>
                         <option value="evening">6p.m-9p.m</option>
@@ -92,10 +92,10 @@
             </fieldset>
             <div>
                 <label for="comments">Comments</label>
-                <textarea id="comments_field" name="comments_field"></textarea>
+                <textarea id="comments_field"name="comments_field"></textarea>
             </div>
-            <button type="submit" name="button">Submit</button>
-            <input type="hidden" name="hidden_field" id="hidden_field" value="ahuerta2@hawk.iit.edu">
+            <button type="submit"name="button">Submit</button>
+            <input type="hidden"name="hidden_field"id="hidden_field"value="ahuerta2@hawk.iit.edu">
         </form>
     </body>
 </html>
