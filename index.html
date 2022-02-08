@@ -19,11 +19,11 @@
                 <legend>Your information</legend>
                 <div>
                     <label for="first_name_field">First Name:</label>
-                    <input type="put first name" id="first_name_field" required>
+                    <input type="put first name" name="first_name_field" id="first_name_field" required>
                 </div>
                 <div>
                     <label for="last_name_field">Last Name:</label>
-                    <input type="put last name" id="last_name_field" required>
+                    <input type="put last name" name="last_name_field" id="last_name_field" required>
                 </div>
                 <div>
                     <label for="phone_field">Phone number:</label>
@@ -35,49 +35,49 @@
                 </div>
                 <p>Gender:</p>
                 <div>
-                    <input type="radio" id="gender_field" name="gender" value="male">
+                    <input type="radio" id="gender_field" name="gender_field" value="male">
                     <label for="male">Male</label>
                 
-                    <input type="radio" id="gender_field" name="gender" value="female">
+                    <input type="radio" id="gender_field" name="gender_field" value="female">
                     <label for="female">Female</label>
     
-                    <input type="radio" id="gender_field" name="gender" value="other">
+                    <input type="radio" id="gender_field" name="gender_field" value="other">
                     <label for="other">Other</label>
                 </div>
                 <p></p>
                 <div>
                     <label for="age">Age</label>
-                    <input type="number" name="age" id="age_field" min="1" max="100">
+                    <input type="number" name="age_field" id="age_field" min="1" max="100">
                 </div>
             </fieldset>
             <fieldset>
                 <legend>Availability</legend>
                 <div>
-                    <input type="checkbox" id="available_field" name="Week">
+                    <input type="checkbox" id="available_field" name="available_field">
                     <label for="sunday">Sunday</label>
                 </div>
                 <div>
-                    <input type="checkbox" id="available_field" name="Week">
+                    <input type="checkbox" id="available_field" name="available_field">
                     <label for="monday">Monday</label>
                 </div>
                 <div>
-                    <input type="checkbox" id="available_field" name="Week">
+                    <input type="checkbox" id="available_field" name="available_field">
                     <label for="tuesday">Tuesday</label>
                 </div>
                 <div>
-                    <input type="checkbox" id="available_field" name="Week">
+                    <input type="checkbox" id="available_field" name="available_field">
                     <label for="wednesday">Wednesday</label>
                 </div>
                 <div>
-                    <input type="checkbox" id="available_field" name="Week">
+                    <input type="checkbox" id="available_field" name="available_field">
                     <label for="thursday">Thursday</label>
                 </div>
                 <div>
-                    <input type="checkbox" id="available_field" name="Week">
+                    <input type="checkbox" id="available_field" name="available_field">
                     <label for="friday">Friday</label>
                 </div>
                 <div>
-                    <input type="checkbox" id="available_field" name="Week">
+                    <input type="checkbox" id="available_field" name="available_field">
                     <label for="saturday">Saturday</label>
                 </div>
                 <p></p>
@@ -92,10 +92,10 @@
             </fieldset>
             <div>
                 <label for="comments">Comments</label>
-                <textarea id="comments_field" name="comments"></textarea>
+                <textarea id="comments_field" name="comments_field"></textarea>
             </div>
             <button type="submit" name="button">Submit</button>
-            <input type="hidden" name="hidden" id="hidden_field" value="Congrats on filling the form">
+            <input type="hidden" name="hidden_field" id="hidden_field" value="Congrats on filling the form">
         </form>
     </body>
 </html>
