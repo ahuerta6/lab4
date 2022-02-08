@@ -14,7 +14,7 @@
     </head>
     <body>
         <h2>Form</h2>
-        <form action="http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php" method="GET">
+        <form action="http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php" method="post">
             <fieldset>
                 <legend>Your information</legend>
                 <div>
@@ -95,7 +95,8 @@
                 <label for="comments">Comments</label>
                 <textarea id="comments_field" name="comments"></textarea>
             </div>
-            <input type="button" value="Submit">
+            <button type="submit" name="button">Submit</button>
             <input type="hidden" name="hidden" id="hidden_field" value="Congrats on filling the form">
         </form>
     </body>
+</html>
